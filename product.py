@@ -20,20 +20,19 @@ class Product:
         return f"{self.id} {self.name:<10} {self.price:>8,} {stock_text}" # 테스트하면서 값 검증할 때 쓰기 좋음
 
 
-# 장바구니
-
-class 
-
-
 #----------------------------tese code----------------------------------
 
-products = [
-    Product("무선 이어폰", 80_000, 3), 
-    Product("텀블러", 15_000, 10),
-    Product("보조배터리", 32_000, 5),
-    Product("마우스패드", 9_000, 0),
-    Product("USB허브", 18_000, 4)
-]
 
-for p in products:
-    print(p)
+if __name__ == "__main__":
+
+    products = [
+        Product("무선 이어폰", 80_000, 3), 
+        Product("텀블러", 15_000, 10),
+        Product("보조배터리", 32_000, 5),
+        Product("마우스패드", 9_000, 0),
+        Product("USB허브", 18_000, 4)
+    ]
+
+    for p in products:
+        print(p)
+
